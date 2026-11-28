@@ -1,0 +1,15 @@
+{
+  "scope": "Independent NumPy dense-system formula check, not MATLAB execution",
+  "numpy": "2.3.3",
+  "gradient_relative_errors": [
+    5.117539628302149e-11,
+    7.719364036873344e-10,
+    1.8141845803398837e-09,
+    1.5566886884712582e-09,
+    3.008764792866714e-09,
+    1.4740646657557018e-09
+  ],
+  "maximum_gradient_error": 3.008764792866714e-09,
+  "NME": 0.7306371727509547,
+  "passed": true
+}

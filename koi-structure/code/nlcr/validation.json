@@ -1,0 +1,35 @@
+{
+  "matlab_version_available": "R2024b",
+  "matlab_execution": "not executed: startup File system inconsistency",
+  "static_analysis": "11 MATLAB files, no diagnostics",
+  "numpy_formula_check": {
+    "scope": "Independent NumPy dense-system formula check, not MATLAB execution",
+    "numpy": "2.3.3",
+    "gradient_relative_errors": [
+      5.117539628302149e-11,
+      7.719364036873344e-10,
+      1.8141845803398837e-09,
+      1.5566886884712582e-09,
+      3.008764792866714e-09,
+      1.4740646657557018e-09
+    ],
+    "maximum_gradient_error": 3.008764792866714e-09,
+    "NME": 0.7306371727509547,
+    "passed": true
+  },
+  "code_sha256": {
+    "example_nlcr.m": "da6c15e822ea59db901c83b494055a8414abf8db457010d017ad22555fae3c8d",
+    "nlcr_constraints.m": "4f3883d73c74e0391b4222e170dfef0889e7e613c6b1e483d4b34505744304fc",
+    "nlcr_dictionary.m": "ab0fc66d0c49135af1d2467a3f8921e702ca458132bec8bfbbbe4a181098884a",
+    "nlcr_evaluate.m": "0710d41668a9b5562136caa38c4a6e5211634f75f8514e49fd53b9250700640a",
+    "nlcr_fit.m": "465a44357763c9586660d12355898b30e818375262469e3f4ca5f279a4c2f073",
+    "nlcr_initialize.m": "99da96df56e52192eda58a4b8f3a6b878688d89fe01353764c2dd33a1799465d",
+    "nlcr_options.m": "9a0bdc058fb11a353914959ad9165cb1da1e0924aa443b8092c185e8b0aaf7c8",
+    "nlcr_prune.m": "edc5c439092a63f656b841a37ba6b1a3caf7afe56d655e505a996607928b5e5e",
+    "nlcr_series.m": "917830f2c9e9617fb73404d953479de36486992823f3e45fefaca220132eca6e",
+    "nlcr_weights.m": "67dfab325f959a68f0a2190fecec680867031b425f88caf377f0ba79bc07bb45",
+    "test_nlcr.m": "e8b848d66bfd5f7636de5f0bac67b4b1e021e0db52c97c57354ad5a79a9777ff"
+  },
+  "review_status": "Static code PASS; results documentation PASS; prose PASS on third dispatch (second dispatch saw unchanged drafts).",
+  "report_sha256": "35b5661c32f95488331f616f1981483a029d1bdce1d0dea846b2cb2f7fa0b566"
+}
